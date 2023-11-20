@@ -7,7 +7,7 @@ int main()
     int n ;
     cin>>n ;
     
-    for(int i= 0 ; i<=n ; i++)                     // first half 
+    for(int i= 0 ; i<n ; i++)                     // first half 
     {
         for(int j=0 ; j<n ; j++)
         {
@@ -24,7 +24,7 @@ int main()
         }
         cout<<endl ;
     }                                           // for triangle 
-        for(int i= n ; i>=0 ; i--)              // second half
+        for(int i= n-1 ; i>=0 ; i--)              // second half
     {
         for(int j=0 ; j<n ; j++)
         {
